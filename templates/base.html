@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700|Raleway" rel="stylesheet">
+    </head>
+    <body>
+        <title>Build a Blog</title>
+        <nav>
+            <a href='/'>Home</a> |
+            <a href='/blog'>Entries</a> |
+            <a href='/newpost'>New Post</a> |
+            <a href='/login'>Log In</a> |
+            <a href='/signup'>Sign Up</a> |
+            <a href='/logout'>Log Out</a>
+        </nav>
+
+        {% block content %}
+
+        {% endblock %}
+
+        <footer>Developed By Brent Tennant</footer>
+    </body>
+</html>

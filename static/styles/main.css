@@ -1,0 +1,138 @@
+/* main elements */
+
+body {
+    background: #eee;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6em;
+}
+
+h3 {
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: #454545;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #827c87;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+nav {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+   color: #827c87;
+   font-family: 'Raleway', sans-serif;
+}
+
+label {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    color: #615d65;
+    font-size: 1.2em;
+    margin-bottom: .3em;
+}
+
+nav {
+    margin-left: 1em;
+    padding: 1em;
+}
+
+footer {
+    color: #333;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: .8em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+/* input elements  */
+input[type=text] {
+    background-color:#fff;
+    color: #333;
+    width: 78%;
+    border: .01em solid #514d54;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+}
+
+input[type=password] {
+    background-color:#fff;
+    color: #333;
+    width: 78%;
+    border: .01em solid #514d54;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+}
+
+textarea {
+    width: 80%;
+    height: 10em;
+    padding: 1em;
+    background-color:#fff;
+    color: #333;
+    resize: none;
+    box-sizing: border-box;
+    border: .01em solid #514d54;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* classes */
+.entry {
+    text-align: center;
+    padding: .5em;
+}
+
+.error {
+    color: #800080;
+    text-align: center;
+    font-size: 1.2em;
+    margin: .5em;
+}
+
+.submit {
+   background-color: #ccc;
+   font-family: 'Oswald', sans-serif;
+   color: #333;
+   border: none;
+   display: inline-block;
+   text-decoration: none;
+   padding: 1em;
+}
+
+.submit:hover {
+    text-decoration: underline;
+}
+
+.title {
+    margin-left: 4em;
+    font-size: 1.2em;
+}
+
+.body {
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+}
+
+.author {
+    margin-left: 6em;
+    font-size: .9em;
+}
+
+.register {
+    text-align: center;
+    font-size: 1.2em;
+}

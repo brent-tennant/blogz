@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Sign up</h1>
+    <form action="/signup" method='POST'>
+        <div class="entry">
+            <label for="username">Username:</label>
+                <div class='error'>{{ username_error }}</div>
+                <div class='error'>{{ existing_error }}</div>
+            <input name="username" type="text" value='{{ username }}' />
+        </div>
+        <div class="entry">
+            <label for="password">Password:</label>
+                <div class="error">{{ password_error }}</div>
+            <input name="password" type="password" value='{{ password }}' />
+        </div>
+        <div class="entry">
+            <label for="verify_password">Verify password:</label>
+                <div class="error">{{ match_error }}</div>
+            <input name="verify_password" type="password" value='{{ verify_password }}' />
+        </div>
+        <div class="entry">
+            <input type="submit" class="submit" value="Sign up" />
+        </div>
+    </form>
+
+{% endblock %}
